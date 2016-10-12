@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather using WU API</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <h1>What's the weather like?</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="main">
+    <div class="jumbotron text-center" id="jumbo">
+        <div class="container">
+
+            <div id="current-weather-wrapper">
+                <div class="row">
+
+
+                    <div class="row">
+                        <div id="weather-icon">
+                            <img src="" title="" alt="" />
+                        </div>
+
+                        <div class="temperature">
+                            <span class="tmp-text"></span> <span class="scale">&#8451;</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-12 sol-md-12 location">
+                    <p class="city"></p>
+                    <p class="country"></p>
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-12 sol-md-12 scale-btns">
+                    <span class="cel-btn active btn btn-info">&#8451;</span>
+                    <span class="fah-btn btn btn-primary">&#8457;</span>
+
+    </div>
+    </div>
+    </div>
+    </div>
+   
+</section>
+<footer class="text-center well-sm">Developed by Julien Menet. Oct.2016</footer>
+</section>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>

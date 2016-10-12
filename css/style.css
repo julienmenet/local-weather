@@ -1,0 +1,22 @@
+@charset "utf-8";
+header h1{
+	margin-top: 1em;
+	font-weight: 400;
+	color: #005682;
+	font-size: 3em;
+	font-family: "Linux Libertine G";
+	font-style: normal;
+	text-decoration: underline;
+}#jumbo {
+	min-width: 0px;
+	background-color: #FBFBFD;
+}
+#main {
+	margin-top: 25px;
+	margin-right: 60px;
+	margin-bottom: 25px;
+	margin-left: 60px;
+	color: #005682;
+	font-size: xx-large;
+}
+
