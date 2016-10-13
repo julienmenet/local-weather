@@ -1,5 +1,6 @@
 // JavaScript Document
 // USING WUNDERGROUNG API !
+// Please get your own api key, it is easy and free...
 $(document).ready(function () {
     $.ajax({
         url: "http://api.wunderground.com/api/11c142d363c23ce7/geolookup/conditions/q/autoip.json",
@@ -336,6 +337,13 @@ $(document).ready(function () {
                 $('.scale').html('&#8457;');
                 showData();
             });
+         if(degCel > 25) {
+      // bit of extra fancy animate
+           //adapted from simpleweather demo
+           $('body').animate({backgroundColor: '#d88014'}, 3000);
+     } else {
+        $('body').animate({backgroundColor: '99e7fb'}, 3000);
+      }
         }
     });
 });
